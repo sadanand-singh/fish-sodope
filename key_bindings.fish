@@ -1,6 +1,6 @@
 # default key sequence: Alt+s
 set -q sudope_sequence
-  or set -l sudope_sequence \es
+  or set -l sudope_sequence \e\e
 
 # if sudope is already bound to some sequence, leave it
 if not bind | string match -rq '[[:space:]]sudope$'
